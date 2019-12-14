@@ -1,0 +1,27 @@
+{
+    "name": "xiaolaomen/captcha",
+    "description": "基于hyperf的验证码",
+    "keywords": [
+        "php",
+        "swoole",
+        "hyperf",
+        "captcha"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaolaomen",
+            "email": "1185802277@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XiaoLaoMen\\Captcha\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "hyperf/config": "~1.1.0"
+    }
+}
